@@ -1,0 +1,64 @@
+*
+{
+    color: #ffffff;
+}
+body
+{
+    background-image: url("images/wall.jpg");
+    background-repeat: no-repeat;
+}
+p
+{
+    font-family: "Texte";
+}
+a
+{
+    color: rgb(0, 0, 155);
+}
+a:hover
+{
+    color: #990000;
+}
+.titlemain
+{
+    border: 4px #000000 solid;
+    box-shadow: 8px 8px 0px #000000;
+    text-align: center;
+}
+.title
+{
+    text-decoration: underline;
+    font-family: "Texte";
+    text-align: center;
+    font-size: 25px;
+}
+
+.texte
+{
+    border: 2px #000000 solid;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 6px 6px 0px #000000;
+}
+.section
+{
+    font-size: 15px;
+    text-align: center;
+}
+.img1
+{
+    box-shadow: 12px 12px 0px #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    display: block;
+}
+.img2
+{
+    box-shadow: 12px 12px 0px #000000;
+    width: 1400px;
+    height: 800;
+}
+@font-face {
+    font-family: "Texte";
+    src: url("fonts/anirm___.ttf");
+}
