@@ -6,6 +6,10 @@ body
 {
     background-image: url("images/wall.jpg");
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 p
 {
@@ -51,15 +55,6 @@ a:hover
     margin-right: auto;
     margin-top: 250px;
     display: block;
-}
-.img2
-{
-    box-shadow: 12px 12px 0px #000000;
-    width: 1400px;
-    height: 800;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 @font-face {
     font-family: "Texte";
